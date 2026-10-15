@@ -1,1 +1,6 @@
-
+- 56eeb8f647698bfe91d80945266bfd903c9d8ba0 skeleton: NAFATH-V1
+- 37f95ee5bb9b5af61db72940bc617a981399afa7 overview: connect the six subtopics
+- 265e109f286db20974461f7cfdee67559ead40ab research: software, ai, mobile
+- 2834288d626548742c2b93f7e54f58474db324ac research: networking, cybersecurity, data
+- 4829fedec6cce22c6bf3f4812e162f2fc42ffdc0 analysis: misconception and open question
+- 05870250776ab1891e83b4d92038b37bfb1efc78 revise: overview
