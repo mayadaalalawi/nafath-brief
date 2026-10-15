@@ -18,3 +18,7 @@ Resource: NIST SP 800-63B: Authenticator and Verifier Requirements - https://pag
 Data
 Oman's Personal Data Protection Law normally requires applicable controllers to explain processing, obtain consent unless an exception applies, safeguard data, maintain records, respect citizen rights, and report qualifying breaches. However, Article 3 exempts government bodies processing data within their legal powers. The ministry states that Government Personal Data Protection Policy Circular 6/2024 instead regulates such processing. Before collecting identity records or storing login logs, the authority must confirm the exemption's scope and follow the applicable government policy.
 Resource: Personal Data Protection - Ministry of Transport, Communications and Information Technology - https://www.mtcit.gov.om/sectors/governance/personal
+
+Misconception in My Track
+A common misconception in cybersecurity is that any two-factor login is automatically phishing-resistant. Adding an SMS code or a six-digit authenticator-app code improves security compared with a password alone, but a convincing fake login page can capture and relay both factors to the real service. Phishing resistance requires a cryptographic link to the genuine verifier or the authentication channel, not simply a second step. WebAuthn/FIDO2 can provide this through verifier-name binding; client-authenticated TLS can provide channel binding. NIST SP 800-63B, under “Phishing Resistance” and “Verifier Name Binding,” explicitly distinguishes these methods from manually entered one-time codes.
+
